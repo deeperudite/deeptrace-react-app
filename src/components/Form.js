@@ -66,7 +66,7 @@ class Form extends React.Component {
             type="radio"
             name="graph"
             value="no"
-            checked={this.state.model === 'no'}
+            checked={this.state.graph === 'no'}
             onChange={this.handleInputChange} /> No
           </label>
           <br /><br /><br/>
