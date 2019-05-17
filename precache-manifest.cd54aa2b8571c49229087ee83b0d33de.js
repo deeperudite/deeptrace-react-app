@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e5d4fdb90c7c2877438489fb7fdc77b",
+    "revision": "48b45bfbf458ac66537832295401394f",
     "url": "/deeptrace-react-app/index.html"
   },
   {
-    "revision": "fc993614f70d15333da6",
+    "revision": "e50abc284a85e34ea77a",
     "url": "/deeptrace-react-app/static/css/main.7702184e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/deeptrace-react-app/static/js/2.e3769a7e.chunk.js"
   },
   {
-    "revision": "fc993614f70d15333da6",
-    "url": "/deeptrace-react-app/static/js/main.d9ea8fca.chunk.js"
+    "revision": "e50abc284a85e34ea77a",
+    "url": "/deeptrace-react-app/static/js/main.4273df8c.chunk.js"
   },
   {
     "revision": "9871cbe1e4271dce38ff",
