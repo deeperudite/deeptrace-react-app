@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/deeptrace-react-app/static/css/main.7702184e.chunk.css",
+    "main.js": "/deeptrace-react-app/static/js/main.d9ea8fca.chunk.js",
+    "main.js.map": "/deeptrace-react-app/static/js/main.d9ea8fca.chunk.js.map",
+    "runtime~main.js": "/deeptrace-react-app/static/js/runtime~main.5c2b3156.js",
+    "runtime~main.js.map": "/deeptrace-react-app/static/js/runtime~main.5c2b3156.js.map",
+    "static/js/2.e3769a7e.chunk.js": "/deeptrace-react-app/static/js/2.e3769a7e.chunk.js",
+    "static/js/2.e3769a7e.chunk.js.map": "/deeptrace-react-app/static/js/2.e3769a7e.chunk.js.map",
+    "index.html": "/deeptrace-react-app/index.html",
+    "precache-manifest.0f69ac5b2caf1383c8064cbe72de01cc.js": "/deeptrace-react-app/precache-manifest.0f69ac5b2caf1383c8064cbe72de01cc.js",
+    "service-worker.js": "/deeptrace-react-app/service-worker.js",
+    "static/css/main.7702184e.chunk.css.map": "/deeptrace-react-app/static/css/main.7702184e.chunk.css.map"
+  }
+}
