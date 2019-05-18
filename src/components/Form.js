@@ -1,5 +1,6 @@
 import "../mystyles.css"
 import React from 'react';
+import { withRouter } from "react-router-dom";
 
 class Form extends React.Component {
   constructor(props) {
@@ -7,9 +8,11 @@ class Form extends React.Component {
     this.state = {
       split: "None",
       graph: "None",
-      model: "None"
+      model: "None",
+      preds: "None"
     };
     this.handleInputChange = this.handleInputChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleInputChange(e) {
@@ -26,17 +29,36 @@ class Form extends React.Component {
     e.preventDefault();
     const data = new FormData(e.target);
 
+    var self = this;
 
-    alert(this.state.split);
-    alert(this.state.graph);
-    alert(this.state.model);
+    axios({
+      url: ,
+      method: 'post',
+      data: data,
+    })
+    .then(function (response) {
+      var preds = response.data.preds;
+      console.log(response);
+      self.setState({preds:preds});
+    })
+    .catch(function (error){
+      console.log(error);
+    });
+
+    self.props.history.push({
+      pathname:"/result",
+      state: {
+        split : self.state.split,
+        graph: self.state.graph,
+        model: self.state.model,
+        preds: self.state.preds }
+    });
   }
 
   render() {
     return (
       <div className="container" id="former">
         <h1>DeepTrace WebApp Deployment </h1>
-        <hr/>
         <form onSubmit={this.handleSubmit}>
           <label>
             File upload: &nbsp;&nbsp;
@@ -99,4 +121,4 @@ class Form extends React.Component {
 
 }
 
-export default Form;
+export default withRouter(Form);
