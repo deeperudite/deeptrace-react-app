@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/deeptrace-react-app/static/css/main.d19f7bb5.chunk.css",
-    "main.js": "/deeptrace-react-app/static/js/main.14b21ba8.chunk.js",
-    "main.js.map": "/deeptrace-react-app/static/js/main.14b21ba8.chunk.js.map",
+    "main.js": "/deeptrace-react-app/static/js/main.b3ea7787.chunk.js",
+    "main.js.map": "/deeptrace-react-app/static/js/main.b3ea7787.chunk.js.map",
     "runtime~main.js": "/deeptrace-react-app/static/js/runtime~main.5c2b3156.js",
     "runtime~main.js.map": "/deeptrace-react-app/static/js/runtime~main.5c2b3156.js.map",
     "static/js/2.7eec7899.chunk.js": "/deeptrace-react-app/static/js/2.7eec7899.chunk.js",
     "static/js/2.7eec7899.chunk.js.map": "/deeptrace-react-app/static/js/2.7eec7899.chunk.js.map",
     "index.html": "/deeptrace-react-app/index.html",
-    "precache-manifest.3d8ca6c14dc1a3a1c60422adb16987b4.js": "/deeptrace-react-app/precache-manifest.3d8ca6c14dc1a3a1c60422adb16987b4.js",
+    "precache-manifest.14a1e6877c95f5cec550545c67c60505.js": "/deeptrace-react-app/precache-manifest.14a1e6877c95f5cec550545c67c60505.js",
     "service-worker.js": "/deeptrace-react-app/service-worker.js",
     "static/css/main.d19f7bb5.chunk.css.map": "/deeptrace-react-app/static/css/main.d19f7bb5.chunk.css.map"
   }

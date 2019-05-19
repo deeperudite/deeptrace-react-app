@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/deeptrace-react-app/precache-manifest.3d8ca6c14dc1a3a1c60422adb16987b4.js"
+  "/deeptrace-react-app/precache-manifest.14a1e6877c95f5cec550545c67c60505.js"
 );
 
 self.addEventListener('message', (event) => {
